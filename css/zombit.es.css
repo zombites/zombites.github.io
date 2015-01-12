@@ -36,6 +36,8 @@ a:hover {
 
 *, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { font-family: "Averia Sans Libre", sans-serif; }
 
+h3 small { color: #999; }
+
 .zb-green {
 	color: #0F0 !important;
 }
