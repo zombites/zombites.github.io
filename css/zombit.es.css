@@ -98,10 +98,16 @@ ul.zb-ul li:before {
 .zb-logos a:focus,
 .zb-logos a:hover {
 	opacity: .7;
+	text-decoration: none;
+	/* font-size: 1.1em; */
 }
 
 .zb-logos img {
 	margin-bottom: 20px;
+}
+
+.zb-tulogo h1{
+	font-size: 4em;
 }
 
 .table-hover > tbody > tr:hover > td, .table-hover > tbody > tr:hover > th {
@@ -110,6 +116,17 @@ ul.zb-ul li:before {
 
 .no-padding-right {
 	padding-right: 0 !important;
+}
+
+.valing {
+	display: flex;
+    align-items: center;
+}
+
+@media (max-width:768px){
+	.valing {
+		display: inherit;
+	}
 }
 
 .nav > li > a:hover,
@@ -138,4 +155,3 @@ ul.zb-ul li:before {
 	margin-top: 10px;
 }
 
-/********** blog ************/	
